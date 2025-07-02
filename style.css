@@ -240,6 +240,7 @@
     width: 100%;
     max-width: 300px;
     border-radius: 12px;
+    cursor: pointer;
     box-shadow: 0 8px 25px rgba(0, 224, 255, 0.2);
     transition: all 0.3s ease;
     border: 1px solid rgba(0, 224, 255, 0.1);
@@ -263,6 +264,7 @@
   width: 100%;
   max-width: 400px;
   border-radius: 12px;
+  cursor: pointer;
   box-shadow: 0 8px 25px rgba(0, 224, 255, 0.2);
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 224, 255, 0.1);
