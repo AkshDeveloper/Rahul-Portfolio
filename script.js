@@ -139,3 +139,27 @@ if (isMobile) {
   
   // Make sure showreel is playing initially
   showreelVideo.play();
+
+  // email address copy to clipboard function 
+  document.addEventListener("DOMContentLoaded", () => {
+    const copyTags = document.querySelectorAll(".copy-text");
+  
+    copyTags.forEach(tag => {
+      tag.style.cursor = "pointer"; // Optional: change cursor on hover
+      tag.title = "Click to copy";
+  
+      tag.addEventListener("click", () => {
+        const textToCopy = tag.textContent.trim();
+  
+        navigator.clipboard.writeText(textToCopy)
+          .then(() => {
+            alert(`Copied: ${textToCopy}`);
+          })
+          .catch(() => {
+            // Fallback prompt
+            prompt("Copy this manually:", textToCopy);
+          });
+      });
+    });
+  });
+  

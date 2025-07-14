@@ -390,10 +390,11 @@
   
 /* Contact Section Link Styling */
 .contact a {
-  color: #00e0ff;
+  color: #ccc;
   text-decoration: none;
   transition: all 0.3s ease;
   font-weight: 600;
+  margin-left: .4rem;
 }
 
 .contact a:hover {
@@ -407,8 +408,31 @@
 }
 
 .contact strong {
+  cursor: pointer;
   color: #00e0ff;
   font-weight: 600;
+  margin-left: .4rem;
+  transition: all 0.3s ease;
+}
+
+.contact-btn1, .contact-btn2, .contact strong {
+  display: inline-block;
+  cursor: pointer;
+  background: #00e0ff;
+  color: #101d2e;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contact-btn1:hover, .contact-btn2:hover, .contact strong:hover {
+  background: #00b8d4;
+  transform: translateY(-3px);
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 224, 255, 0.2);
 }
 
   footer {
