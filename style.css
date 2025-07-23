@@ -243,12 +243,13 @@
     cursor: pointer;
     box-shadow: 0 8px 25px rgba(0, 224, 255, 0.2);
     transition: all 0.3s ease;
-    border: 1px solid rgba(0, 224, 255, 0.1);
+
 }
 
 .row video:hover, .center-row video:hover {
     transform: scale(1.02);
     box-shadow: 0 12px 30px rgba(0, 224, 255, 0.3);
+    border: 1px solid rgba(0, 224, 255, 0.2);
 }
 
 .center-row {
