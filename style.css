@@ -325,15 +325,6 @@
     object-fit: contain;
   }
   
-.software-card .capcut  {
-  width: auto;
-  height: 75px;
-  margin-bottom: 9px;
-  object-fit: contain;
-  margin-top: -15px;
-  margin-left: -9px;
-}
-
   .software-card:hover img {
     transform: scale(1.1) rotate(2deg);
   }
@@ -416,11 +407,11 @@
   transition: all 0.3s ease;
 }
 
-.contact-btn1, .contact-btn2, .contact strong {
+.contact-btn1, .contact-btn2, .copy-text {
   display: inline-block;
   cursor: pointer;
-  background: #00e0ff;
-  color: #101d2e;
+  background: transparent;
+  color: #00b8d4;
   padding: 5px 10px;
   border-radius: 30px;
   text-decoration: none;
@@ -429,8 +420,12 @@
   transition: all 0.3s ease;
 }
 
+.copy-text {
+  border: 2px solid #a7a7a7;
+}
+
 .contact-btn1:hover, .contact-btn2:hover, .contact strong:hover {
-  background: #00b8d4;
+  background: #0e141b;
   transform: translateY(-3px);
   transform: scale(1.05);
   box-shadow: 0 5px 10px rgba(0, 224, 255, 0.2);
