@@ -115,7 +115,7 @@
       height: 100%;
       object-fit: cover;           /* aspect ratio maintain, fill container */
       border-radius: 50%;
-      transform: scale(1.1) translateY(-2px); /* 👈 yahaan zoom badhao/ghatao (1 = normal) */
+      transform: scale(1.17); /* 👈 yahaan zoom badhao/ghatao (1 = normal) */
       transform-origin: center center;  /* default, lekin safe */
       transition: transform 0.3s ease; /* optional smoothness */
     }
@@ -987,9 +987,6 @@
         height: 150px;
       }
 
-      .profile-img .image {
-        transform: scale(1.1) translateY(-1px)
-      }
       .info {
         flex-direction: column;
         align-items: center;
